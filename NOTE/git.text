@@ -2,7 +2,7 @@ git init
 
 git add .
 
-git commit -m "Marketing Audiance Section"
+git commit -m "Existing Project Upload"
 
 git branch -M main
 
