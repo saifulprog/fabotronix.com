@@ -1,0 +1,55 @@
+
+body{
+    background-color: white;
+    height: 1500px;
+}
+a{
+    text-decoration: none !important;
+}
+.topbar{
+    background-color: #F34B09;
+    padding: 15px 0px 0px 0px;
+}
+.topbar ul li{
+    display: inline;
+    color: white;
+    font-weight: bold;
+}
+.topbar ul li span{
+    font-weight: bold;
+}
+.topbar ul li a{
+    color: white;
+    font-weight: bold;
+}
+.nav-top-space{
+    margin-top:55px
+}
+.nav-link{
+    color: #F34B09;
+}
+.active{
+    color: #F34B09 !important;
+    border-bottom: 1px solid #F34B09;
+}
+.nav-link:hover{
+    background-color: #F34B09;
+    color: white;
+}
+.active:hover active{
+    background-color: #F34B09;
+    color: white;
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 600px) {
+    .nav-top-space{
+        margin-top:95px
+    }
+    .social-icon{
+        display: none;
+    }
+    .contact-number{
+        font-size: .9em;
+    }
+}
