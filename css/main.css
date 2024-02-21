@@ -1,13 +1,28 @@
-
+:root {
+    --themeColor: #F34B09;
+    /* --themeColor: #0078D4; */
+    /* --themeColor: #038387; */
+    --white: #ffffff;
+    --sectionBgColor: #F3F3F3;
+  }
 body{
     background-color: white;
-    height: 1500px;
+    text-align: justify;
 }
 a{
     text-decoration: none !important;
 }
+.div-hight{
+    min-height: 480px;
+    max-height: 840px;
+}
+.section-padding{
+    padding-top: 7rem !important;
+    padding-bottom: 7rem !important;
+}
+/* Nav Section Start */
 .topbar{
-    background-color: #F34B09;
+    background-color: var(--themeColor);
     padding: 15px 0px 0px 0px;
 }
 .topbar ul li{
@@ -26,21 +41,59 @@ a{
     margin-top:55px
 }
 .nav-link{
-    color: #F34B09;
+    color: var(--themeColor);
 }
 .active{
-    color: #F34B09 !important;
-    border-bottom: 1px solid #F34B09;
+    color: var(--themeColor) !important;
+    border-bottom: 1px solid var(--themeColor);
 }
 .nav-link:hover{
-    background-color: #F34B09;
+    background-color: var(--themeColor);
     color: white;
 }
 .active:hover active{
-    background-color: #F34B09;
+    background-color: var(--themeColor);
     color: white;
 }
+/* Slide Section Start */
+.slide-section{
+    margin-top:135px
+}
+/* About Section Start */
+.btn-outline-orange{
+    border: 2px solid var(--themeColor) !important;
+    color: var(--themeColor);important;
+}
+.btn-outline-orange:hover{
+    border: 2px solid var(--themeColor) !important;
+    color: var(--white) !important;
+    background-color: var(--themeColor) !important;
+}
+/* What We Do Section Start */
+.wat-we-do{
+    background-color: var(--sectionBgColor) !important;
+}
+.section-title{
+    color: var(--themeColor) !important;
+}
 
+
+
+
+
+/* Footer Section Start */
+.footer-section{
+    background-color: #222222;
+    padding: 20px 0px 20px 0px;
+    color: var(--white) !important;
+}
+.footer-title{
+    color: var(--themeColor) !important;
+}    
+.copyright{
+    background-color: #000000;
+    color: var(--white) !important;
+}
 /* Media Query Start */
 @media only screen and (max-width: 600px) {
     .nav-top-space{
@@ -51,5 +104,8 @@ a{
     }
     .contact-number{
         font-size: .9em;
+    }
+    .slide-section{
+        margin-top:170px
     }
 }
